@@ -1,0 +1,447 @@
+.egt td{
+	background-color:#fff;
+	    border-style: groove;
+	    height: 66px;
+	    font-size: 10px;
+}
+
+td.tdhight {
+    height: 80px;
+}
+
+.buttontrack{
+	margin-right:19px;
+}
+.tabla1.etiqueta {
+	background-color: #EBEBEB;
+	color: #1F3366;
+}
+
+.tabla1.descEtiqueta {
+	color:#1F3366;
+	font-size: 20px;
+}
+.tabla2.descEtiqueta {
+	color:#1F3366;
+	font-size: 12px;
+}
+
+.circulo {
+    width: 30rem;
+    height: 210px;
+    /*   border-radius: 50%;*/
+    background-color: rgba(255,255,255,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display:inline;
+
+}
+
+.cuadroprincipal{
+	border:1px solid;
+	color: black;
+	height: 20rem;
+	border-radius: 5px;
+	background: #F7F7F7;
+	margin-left: 11px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+   
+}
+
+.ima{
+	height: 18px;
+/*	float: right;;*/
+	margin-top: 4px
+}
+.cuadroprincipal.pgpi{
+	font-size: 10px;
+}
+p.gpip {
+	font-size: 11px;
+}
+.text12{
+	margin-top: 0px;
+}
+
+.gpitextopais{
+    display: contents !important;
+}
+
+p.gpiptext13{
+	font-size: 11px;
+	display: inline-block;
+	position: absolute;
+    margin-top: 5px;
+}
+p.gpiptext{
+	font-size: 11px;
+	margin-bottom: 0px;
+}
+.progressbar{
+	margin-left: 38px;
+}
+.hrm{
+	    margin-bottom: -17px;
+    margin-top: 3px;
+
+}
+
+p.gpiptext13.tamanospecial {
+    font-size: 6px;
+}
+i.tamanospecial{
+	font-size: 18px;
+}
+
+button.Regresar1 {
+    margin-top: 12px;
+    font-size: 13px;
+    padding-top: 10px;
+    height: 37px;
+}
+
+i.iconpasos{
+	font-size: 30px;
+}
+
+.specialpadding{
+    margin-left: 66px;
+}
+
+@media only screen and (max-width: 1023px) {
+
+.cuadroprincipal{
+height: 13rem;
+margin-bottom: 7px;
+}
+
+p.gpiptext13.tamanospecial {
+    font-size: 8px;
+}
+p.gpip {
+    font-size: 13px;
+}
+.tabla2.descEtiqueta {
+    color: #1F3366;
+    font-size: 14px;
+}
+.tabla1.descEtiqueta {
+    color: #1F3366;
+    font-size: 15px;
+}
+
+
+
+.cuadroprincipal{
+    border:1px solid;
+    color: black;
+    height: 218px;
+    border-radius: 5px;
+    background: #F7F7F7;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-right: 0px;
+}
+
+}
+
+@media only screen and (max-width: 768px){}
+
+p.gpip {
+    
+    margin-top: 19px;
+}
+}
+
+@media only screen and (max-width: 639px) {
+
+.cuadroprincipal{
+	margin-left: 0px;
+}
+
+.ima{
+	    margin-left: 19px;
+}
+p.gpiptext {
+    font-size: 10px;
+}
+p.gpip {
+    font-size: 12px;
+}
+.cuadroprincipal.pgpi {
+    height: 218px;
+    float: right;
+}
+p.gpiptext13 {
+    font-size: 12px;
+}
+p.gpiptext13.tamanospecial {
+    font-size: 8px;
+}
+.tabla2.descEtiqueta {
+    color: #1F3366;
+    font-size: 8px;
+}
+.tabla1.descEtiqueta {
+    color: #1F3366;
+    font-size: 11px;
+}
+
+}
+@media only screen and (max-width: 375px) {
+
+p.gpip {
+    font-size: 9px;
+        margin-top: 29px;
+}
+
+p.gpiptext13 {
+    font-size: 10px;
+}
+.tabla2.descEtiqueta {
+    font-size: 5px;
+}
+
+.tabla1.descEtiqueta {
+    color: #1F3366;
+    font-size: 9px;
+}
+
+.ima{
+	margin-left: 22px;
+}
+
+}
+
+
+/*wizard*/
+ul.SteppedProgress{counter-reset:step;display:flex;margin:auto;overflow:hidden;padding:0;position:relative;text-align:center;z-index:0}
+
+
+.SteppedProgress li{list-style-type:none;color:#404140;line-height:normal;flex:1;font-size:22px;position:relative;padding:0 2%}
+.SteppedProgress li.boxed span,.SteppedProgress li.current span{background:silver;border:1px solid silver;color:gray;display:inline-block;padding:3px 6px;position:relative;margin:0px -6px;width:100%}
+.SteppedProgress li.boxed span:after,.SteppedProgress li.current span:after{bottom:100%;left:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(255,255,255,0);border-bottom-color:silver;border-width:10px;margin-left:-10px; height: 28px;}
+.SteppedProgress li.current span{background:#4170b0;color:#FFF}.SteppedProgress li.current span:after{border-bottom-color:#4170b0}
+.SteppedProgress li.current.canHover span:hover{background:#b9cce5;border-color:#4170b0;color:#4170b0}
+.SteppedProgress li.current.canHover span:hover:after{border-bottom-color:#b9cce5}
+.SteppedProgress li.complete.boxed span{background:#23b900;color:#FFF}
+.SteppedProgress li.complete.boxed span:after{border-bottom-color:#23b900}
+.SteppedProgress li.complete.boxed.canHover span:hover{background:#95ff7c;border-color:#23b900;color:#23b900;cursor:pointer}
+.SteppedProgress li.complete.boxed.canHover span:hover:after{border-bottom-color:#23b900;cursor:pointer}
+.SteppedProgress li:before{content:counter(step);counter-increment:step;width:30px;line-height:30px;display:block;font-size:22px;color:#FFF;background:gray;border-radius:15px;margin:0 auto 10px;position:relative;z-index:1; content: "\62";font-family: "bibanking" !important; height: 28px;}
+.SteppedProgress li:after{content:'';width:100%;height:6px;background:silver;position:absolute;left:-50%;top:15px;z-index:-1}
+
+.SteppedProgress li:first-child:after{content:none}
+.SteppedProgress li.complete:before{background:#0055B8;color:white; content: "\62";font-family: "bibanking" !important; height:28px;}
+
+.SteppedProgress li.complete:after{background:#0055B8;}ul.SteppedProgress.Vertical{display:block}
+.SteppedProgress.Vertical li{flex:none;clear:both;text-align:left;padding:0;margin-left:0;min-height:10.2em}
+.SteppedProgress.Vertical li span{white-space:nowrap}ul.SteppedProgress.Vertical li:before{float:none;display:inline-block;margin-right:10px;text-align:center;margin-left:0}
+.SteppedProgress.Vertical li:after{content:'';width:6px;height:100%;position:absolute;left:12px;top:-87%;z-index:-1}
+ul.SteppedProgress.Vertical li.boxed,ul.SteppedProgress.Vertical li.current{min-width:90%}
+ul.SteppedProgress.Vertical 
+li.boxed 
+span,ul.SteppedProgress.Vertical 
+li.current span{display:inline;margin-left:0}ul.SteppedProgress.Vertical 
+li.boxed span:after,ul.SteppedProgress.Vertical li.current span:after{bottom:auto;left:auto;right:100%;top:7px;border-color:rgba(255,255,255,0);border-right-color:silver;margin:0}
+ul.SteppedProgress.Vertical li.current span:after{border-right-color:#4170b0}
+ul.SteppedProgress.Vertical li.complete.boxed span:after{border-color:rgba(255,255,255,0);border-right-color:#23b900}
+@media (max-width: 480px){ul.SteppedProgress{display:block}.SteppedProgress li{flex:none;clear:both;text-align:left;padding:0;margin-left:0;min-height:2.2em}
+.SteppedProgress li span{white-space:nowrap}ul.SteppedProgress li:before{float:none;display:inline-block;margin-right:10px;text-align:center;margin-left:0}
+.SteppedProgress li:after{content:'';width:6px;height:100%;position:absolute;left:12px;top:-50%;z-index:-1}ul.SteppedProgress li.boxed,ul.SteppedProgress li.current{min-width:90%}
+ul.SteppedProgress li.boxed span,ul.SteppedProgress li.current span{display:inline;margin-left:0}ul.SteppedProgress li.boxed span:after,ul.SteppedProgress 
+li.current span:after{bottom:auto;left:auto;right:100%;top:7px;border-color:rgba(255,255,255,0);border-right-color:silver;margin:0}ul.SteppedProgress li.current span:after{border-right-color:#4170b0}
+ul.SteppedProgress li.complete.boxed span:after{border-color:rgba(255,255,255,0);border-right-color:#23b900}}
+/*# sourceMappingURL=ProgressIndicator.css.map */
+
+
+
+li.fail {
+    
+    margin-right: 2px;
+}
+
+.SteppedProgress li.fail:before
+{
+content: "\69" !important;
+    background: red;
+    padding-right: 2px;
+
+}
+
+.SteppedProgress li.complete.fail:before
+{
+content: "\69" !important;
+    background: red;
+}
+
+/*.SteppedProgress li:before{
+        font-family: "bibanking" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+        content: "\62";
+}
+*/
+
+
+
+.progress{
+	background: #0055B8;
+}
+
+.informacionerror{
+    font-size: 23px;
+    position: absolute;
+    color: red;
+}
+
+i.icon.bibanking-icon-error {
+    color: red;
+    font-size: 20px;
+    position: relative;
+    display: inline-flex;
+}
+
+i.icongris{
+    color: #8C8C8C;
+}
+
+.cuadroprincipal.tooltip {
+    background-color: red;
+}
+
+span.cerrarswiftmodal{
+    color: #666666;
+}
+
+p.swiftmodaltext{
+    color: #666666;
+    font-size: 14px;
+}
+
+p.swiftmodaltextsmall{
+    color: #666666;
+    font-size: 12px;
+}
+
+.bordermodal{
+    border: 3px solid #c60f13;
+        border-radius: 10px;
+}
+.cuadroprincipalfail{
+    border: 2px solid;
+    color: #c60f13;
+}
+
+.Vertical{
+    top: 50px;
+}
+
+
+
+.widthmoneytable{
+    width: 13%;
+}
+
+.widthmoneytime{
+    width: 16%;
+}
+
+
+@media screen and (max-width: 1023px) {
+
+  .table-responsive table tr td {
+text-align: right !important;
+}
+
+
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 1px solid #efefef;
+    display: block;
+  /*  margin-bottom: .625em;*/
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+  
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+
+.widthmoneytable{
+    width: 0%;
+}
+
+.widthmoneytime{
+    width: 0%;
+}
+
+}
+
+
+.table-responsive table thead {
+    color: #1f3366;
+    background-color: #1f3366;
+}
+
+
+@media only screen and (max-width: 1023px) {
+.table-responsive table tr td {
+text-align: right;
+}
+}
+
+i.icon.icon.bibanking-icon-location.specialclassico {
+    font-size: 20px;
+}
+
+p.gpiptext13.gpitextopais {
+    position: relative;
+}

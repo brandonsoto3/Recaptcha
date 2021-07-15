@@ -1,0 +1,649 @@
+
+/* table content */
+/* line 67, ../../src/scss/_tableresponsive.scss */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 1.25rem;
+    overflow-y: visible;
+}
+
+
+
+/* line 74, ../../src/scss/_tableresponsive.scss */
+.table-responsive .tbl-report input,
+.table-responsive .tbl-report select {
+  margin-bottom: 0;
+}
+/* line 80, ../../src/scss/_tableresponsive.scss */
+.table-responsive .display-for-medium-up {
+  display: none;
+}
+/* line 84, ../../src/scss/_tableresponsive.scss */
+.table-responsive .btns-options {
+  text-align: center;
+}
+/* line 87, ../../src/scss/_tableresponsive.scss */
+.table-responsive .btns-options a {
+  display: inline-block;
+  color: #13b2ff;
+  text-decoration: none;
+}
+/* line 92, ../../src/scss/_tableresponsive.scss */
+.table-responsive .btns-options a span {
+  color: #13b2ff;
+  border-bottom: 0 none;
+  cursor: pointer;
+  font-size: 30px;
+}
+/* line 134, ../../src/scss/_tableresponsive.scss */
+.table-responsive table {
+  
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 0;
+  border: 0 none;
+  border-bottom: 1px solid #DDDDDD;
+  color: #666666;
+}
+/* line 144, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr td {
+    font-weight: 300;
+    text-align: right;
+    color: black;
+    vertical-align: middle;
+    font-size: 0.875rem;
+    padding-right: 0.5rem !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+    padding-left: 0.5rem !important;
+    font-size: 0.7rem;
+}
+
+
+
+.table-responsive table tr td:First-letter {
+    text-transform: uppercase;
+}
+/* line 148, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr td p {
+    font-weight: 300;
+    color: #006db0;
+    font-size: 0.7rem;
+    margin: 0;
+}
+/* line 155, ../../src/scss/_tableresponsive.scss */
+.table-responsive table thead {
+  color: #ffffff;
+  background-color: #aaaaaa;
+}
+
+
+
+.table-responsive table thead tr th {
+    text-align: center;
+    font-size: 10px;
+    line-height: 12px;
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-right: 1px solid #ffffff;
+        padding-right: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 0.5rem !important;
+}
+
+
+/* line 167, ../../src/scss/_tableresponsive.scss */
+.table-responsive table thead tr th input[type='checkbox'] {
+  font-size: 0.875rem;
+}
+/* line 171, ../../src/scss/_tableresponsive.scss */
+.table-responsive table thead tr th.w-hover {
+  padding: 0;
+}
+/* line 174, ../../src/scss/_tableresponsive.scss */
+.table-responsive table thead tr th.w-hover:hover {
+  background-color: #919191;
+}
+/* line 179, ../../src/scss/_tableresponsive.scss */
+.table-responsive table thead tr th:last-child {
+  border-right: 0 none;
+}
+/* line 183, ../../src/scss/_tableresponsive.scss */
+.table-responsive table thead tr th p {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 300;
+}
+/* line 189, ../../src/scss/_tableresponsive.scss */
+.table-responsive table thead tr th a {
+  padding: 0.5rem 0.625rem 0.625rem;
+  position: relative;
+  display: block;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/* line 196, ../../src/scss/_tableresponsive.scss */
+.table-responsive table thead tr th a.desc, .table-responsive table thead tr th a.asc {
+  text-decoration: none;
+  padding-right: 20px;
+}
+/* line 201, ../../src/scss/_tableresponsive.scss */
+.table-responsive table thead tr th a.desc:after, .table-responsive table thead tr th a.asc:after {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+  content: "";
+  width: 0;
+  height: 0;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+/* line 214, ../../src/scss/_tableresponsive.scss */
+.table-responsive table thead tr th a.desc:after {
+  border-top: 5px solid #ffffff;
+}
+/* line 220, ../../src/scss/_tableresponsive.scss */
+.table-responsive table thead tr th a.asc:after {
+  border-bottom: 5px solid #ffffff;
+}
+/* line 231, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-header th {
+  background-color: #aaaaaa;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-right: 1px solid #ffffff;
+}
+/* line 239, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-header th input[type='checkbox'] {
+  font-size: 0.875rem;
+}
+/* line 243, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-header th.w-hover {
+  padding: 0;
+}
+/* line 246, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-header th.w-hover:hover {
+  background-color: #919191;
+}
+/* line 251, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-header th:last-child {
+  border-right: 0 none;
+}
+/* line 255, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-header th p {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 300;
+}
+/* line 261, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-header th a {
+  padding: 0.5rem 0.625rem 0.625rem;
+  position: relative;
+  display: block;
+  color: #ffffff;
+}
+/* line 267, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-header th a.desc, .table-responsive table tr.first-header th a.asc {
+  text-decoration: none;
+  padding-right: 15px;
+}
+/* line 272, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-header th a.desc:after, .table-responsive table tr.first-header th a.asc:after {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+  content: "";
+  width: 0;
+  height: 0;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+/* line 285, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-header th a.desc:after {
+  border-top: 5px solid #ffffff;
+}
+/* line 291, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-header th a.asc:after {
+  border-bottom: 5px solid #ffffff;
+}
+/* line 299, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tfoot {
+  background-color: #DDDDDD;
+}
+/* line 303, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tfoot tr td {
+  border-right: 1px solid #ffffff;
+}
+/* line 306, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tfoot tr td p.totals,
+.table-responsive table tfoot tr td span.totals {
+  font-size: 0.875rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+/* line 313, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tfoot tr td:last-child {
+  border-right: 0 none;
+}
+/* line 320, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-footer {
+  background-color: #DDDDDD;
+}
+/* line 322, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-footer td {
+  border-right: 1px solid #ffffff;
+}
+/* line 325, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-footer td p.totals,
+.table-responsive table tr.first-footer td span.totals {
+  font-size: 0.875rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+/* line 332, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tr.first-footer td:last-child {
+  border-right: 0 none;
+}
+/* line 338, ../../src/scss/_tableresponsive.scss */
+.table-responsive table .warning {
+  color: #f13852;
+}
+/* line 341, ../../src/scss/_tableresponsive.scss */
+.table-responsive table .warning a {
+  color: #f13852;
+}
+/* line 348, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+
+  font-weight: 300;
+    text-align: center;
+    color: #666666;
+    vertical-align: middle;
+    font-size: 0.875rem;
+    padding-right: 0.5rem !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+    padding-left: 0.5rem !important;
+    font-size: 0.7rem;
+}
+/* line 351, ../../src/scss/_tableresponsive.scss */
+.table-responsive table tbody tr:nth-child(even) {
+  background-color: #ebebeb;
+}
+
+
+/* line 359, ../../src/scss/_tableresponsive.scss */
+.table-responsive .table-mobile .row-mobile .col-mobile.row {
+  margin: 0;
+  background-color: #F6F6F6;
+  border-bottom: 1px solid #efefef;
+}
+/* line 364, ../../src/scss/_tableresponsive.scss */
+.table-responsive .table-mobile .row-mobile .col-mobile.row p {
+  font-size: 0.875rem;
+  margin: 0;
+}
+/* line 369, ../../src/scss/_tableresponsive.scss */
+.table-responsive .table-mobile .row-mobile .col-mobile.row a {
+  color: #13b2ff;
+  text-decoration: none;
+}
+/* line 373, ../../src/scss/_tableresponsive.scss */
+.table-responsive .table-mobile .row-mobile .col-mobile.row a.desc, .table-responsive .table-mobile .row-mobile .col-mobile.row a.asc {
+  position: relative;
+  display: block;
+  padding-right: 15px;
+}
+/* line 379, ../../src/scss/_tableresponsive.scss */
+.table-responsive .table-mobile .row-mobile .col-mobile.row a.desc:after, .table-responsive .table-mobile .row-mobile .col-mobile.row a.asc:after {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+/* line 391, ../../src/scss/_tableresponsive.scss */
+.table-responsive .table-mobile .row-mobile .col-mobile.row a.desc:after {
+  border-top: 5px solid #13b2ff;
+}
+/* line 397, ../../src/scss/_tableresponsive.scss */
+.table-responsive .table-mobile .row-mobile .col-mobile.row a.asc:after {
+  border-bottom: 5px solid #13b2ff;
+}
+/* line 403, ../../src/scss/_tableresponsive.scss */
+.table-responsive .table-mobile .row-mobile .col-mobile.row .columns {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+/* line 409, ../../src/scss/_tableresponsive.scss */
+.table-responsive .table-mobile .row-mobile .col-mobile.row:first-child {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+      height: 45px;
+  background-color: #aaaaaa;
+  text-transform: uppercase;
+}
+/* line 416, ../../src/scss/_tableresponsive.scss */
+.table-responsive .table-mobile .row-mobile .col-mobile.row:first-child a {
+  color: #ffffff;
+}
+/* line 420, ../../src/scss/_tableresponsive.scss */
+.table-responsive .table-mobile .row-mobile .col-mobile.row:first-child a.desc:after {
+  border-top: 5px solid #ffffff;
+}
+/* line 425, ../../src/scss/_tableresponsive.scss */
+.table-responsive .table-mobile .row-mobile .col-mobile.row:first-child a.asc:after {
+  border-bottom: 5px solid #ffffff;
+}
+/* line 430, ../../src/scss/_tableresponsive.scss */
+.table-responsive .table-mobile .row-mobile .col-mobile.row:first-child .col-data a {
+    color: white;
+    text-decoration: underline;
+    margin-top: 0px;
+    line-height: 0px;
+   
+}
+/* line 439, ../../src/scss/_tableresponsive.scss */
+.table-responsive .table-mobile .row-totals .col-mobile,
+.table-responsive .table-mobile .row-totals .col-mobile.row:first-child {
+  color: #666666;
+  background-color: #DDDDDD;
+}
+
+
+@media only screen and (max-width: 40em) {
+
+.table-responsive {
+    width: 100%;
+    overflow: visible;
+    margin-bottom: 1.25rem;
+}
+}
+
+@media only screen and (min-width: 40.0625em) {
+  /* line 449, ../../src/scss/_tableresponsive.scss */
+  .table-responsive .display-for-medium-up {
+    display: inline;
+  }
+  /* line 453, ../../src/scss/_tableresponsive.scss */
+  .table-responsive table {
+    display: table;
+  }
+  /* line 457, ../../src/scss/_tableresponsive.scss */
+  .table-responsive .table-mobile {
+    display: none;
+  }
+
+}
+/* table pager */
+/* line 466, ../../src/scss/_tableresponsive.scss */
+.pagination-centered ul.pagination .first,
+.pagination-centered ul.pagination .last,
+.pagination-centered ul.pagination .arrow {
+  line-height: 16px;
+  border: 1px solid #13b2ff;
+}
+/* line 472, ../../src/scss/_tableresponsive.scss */
+.pagination-centered ul.pagination .first a,
+.pagination-centered ul.pagination .last a,
+.pagination-centered ul.pagination .arrow a {
+  display: inline-block;
+  text-decoration: none;
+  height: 16px;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 14px;
+  line-height: 28px;
+  height: 28px;
+  color: #13b2ff;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+/* line 485, ../../src/scss/_tableresponsive.scss */
+.pagination-centered ul.pagination .first a:hover,
+.pagination-centered ul.pagination .last a:hover,
+.pagination-centered ul.pagination .arrow a:hover {
+  color: #ffffff;
+  background-color: #13b2ff;
+}
+/* line 490, ../../src/scss/_tableresponsive.scss */
+.pagination-centered ul.pagination .first.aleft,
+.pagination-centered ul.pagination .last.aleft,
+.pagination-centered ul.pagination .arrow.aleft {
+  margin-right: 0px;
+}
+/* line 493, ../../src/scss/_tableresponsive.scss */
+.pagination-centered ul.pagination .first.aright,
+.pagination-centered ul.pagination .last.aright,
+.pagination-centered ul.pagination .arrow.aright {
+  margin-left: 0px;
+}
+/* line 499, ../../src/scss/_tableresponsive.scss */
+.pagination-centered ul.pagination .pos a {
+  line-height: 28px;
+  text-decoration: none;
+}
+/* line 505, ../../src/scss/_tableresponsive.scss */
+.pagination-centered ul.pagination .first,
+.pagination-centered ul.pagination .last,
+.pagination-centered ul.pagination .pos4,
+.pagination-centered ul.pagination .pos5,
+.pagination-centered ul.pagination .pos6 {
+  display: none;
+}
+/* line 513, ../../src/scss/_tableresponsive.scss */
+.pagination-centered ul.pagination li {
+  height: 30px;
+}
+
+@media only screen and (min-width: 64.0625em) {
+  /* line 522, ../../src/scss/_tableresponsive.scss */
+  .pagination-centered ul.pagination .arrow.aleft {
+    margin-right: 50px;
+  }
+  /* line 525, ../../src/scss/_tableresponsive.scss */
+  .pagination-centered ul.pagination .arrow.aright {
+    margin-left: 50px;
+  }
+}
+/* line 533, ../../src/scss/_tableresponsive.scss */
+.hr-pager {
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  /* line 540, ../../src/scss/_tableresponsive.scss */
+  .pagination-centered ul.pagination .first,
+  .pagination-centered ul.pagination .last,
+  .pagination-centered ul.pagination .pos4,
+  .pagination-centered ul.pagination .pos5,
+  .pagination-centered ul.pagination .pos6 {
+    display: inline-block;
+  }
+}
+/* STEPS */
+/* step tabs */
+/* line 3, ../../src/scss/_steps.scss */
+.steps .col1 {
+  padding-right: 0 !important;
+}
+/* line 6, ../../src/scss/_steps.scss */
+.steps .col2 {
+  padding-left: 0 !important;
+}
+/* line 10, ../../src/scss/_steps.scss */
+.steps .option {
+  color: #CCCCCC;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #CCCCCC;
+}
+/* line 16, ../../src/scss/_steps.scss */
+.steps .option span {
+  display: block;
+  float: left;
+  line-height: 20px;
+}
+/* line 22, ../../src/scss/_steps.scss */
+.steps .option .step {
+  color: #CCCCCC;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  text-align: center;
+  margin-right: 5px;
+  border: 1px solid #CCCCCC;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 34, ../../src/scss/_steps.scss */
+.steps .option.old .step {
+  color: #ffffff;
+  background-color: #CCCCCC;
+  border-color: #CCCCCC;
+}
+/* line 41, ../../src/scss/_steps.scss */
+.steps .option.active {
+  color: #13b2ff;
+  border-bottom: 1px solid #13b2ff;
+}
+/* line 45, ../../src/scss/_steps.scss */
+.steps .option.active .step {
+  color: #ffffff;
+  background-color: #13b2ff;
+  border-color: #13b2ff;
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 57, ../../src/scss/_steps.scss */
+  .steps .option .step {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 26px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+  }
+  /* line 66, ../../src/scss/_steps.scss */
+  .steps .option .s-title {
+    display: none;
+  }
+}
+@media only screen and (min-width: 40.0625em) {
+  /* line 77, ../../src/scss/_steps.scss */
+  .steps .option {
+    padding-bottom: 10px;
+  }
+  /* line 80, ../../src/scss/_steps.scss */
+  .steps .option span {
+    line-height: 34px;
+  }
+  /* line 82, ../../src/scss/_steps.scss */
+  .steps .option span.s-title {
+    line-height: 100%;
+    margin-top: 8px;
+  }
+  /* line 88, ../../src/scss/_steps.scss */
+  .steps .option .step {
+    width: 34px;
+    height: 34px;
+    font-size: 14px;
+    margin-right: 10px;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    border-radius: 17px;
+  }
+}
+
+
+
+
+
+
+.table-responsive table tr td {
+text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+
+  .table-responsive table tr td {
+text-align: right;
+}
+
+
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 1px solid #efefef;
+    display: block;
+  /*  margin-bottom: .625em;*/
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+  
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+
+.table-responsive table thead {
+    color: #1f3366;
+    background-color: #1f3366;
+}
+
+
+@media only screen and (max-width: 640px) {
+.table-responsive table tr td {
+text-align: right;
+}
+}
+

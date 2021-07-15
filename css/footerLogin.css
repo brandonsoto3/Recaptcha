@@ -1,0 +1,423 @@
+
+    /* FOOTER */
+    /* GLOBAL */
+    /* PARAMETERS */
+    /* FOUNDATION SETTINGS */
+    /* FOUNDATION GLOBAL */
+    /* SECTION */
+    /* line 5, ../../src/scss/_footer.scss */
+
+
+#footer {
+    /* left: -10%; */
+    /* bottom: -10px; */
+    /* width: 120%; */
+    position: absolute;
+    /* display: block; */
+ 
+    color: #999999;
+    background-color: #2c2e31;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+    
+
+#footer h1 {
+    color: white;
+    text-align: left;
+    font-family: lato;
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+    margin-left: 0px;
+    padding-left: 0px;
+    left: 0px;
+    line-height: 1;
+    font-weight: 900;
+    border-bottom: none;
+}
+#footer ul {
+      margin-left: 4px;
+}
+
+    /* line 12, ../../src/scss/_footer.scss */
+    #footer a {
+      color: #999999;
+      text-decoration: none;
+      font-size: 12px;
+      transition: .6s;
+      font-weight: 600;
+    }
+
+#footer a i {
+    letter-spacing: 8px;
+    font-size: 2.1rem;
+    color: #999999;
+    text-decoration: none;
+}
+
+    #footer a i:hover {
+      color: #13b2ff;
+      transition: .2s;
+    }
+
+
+    /* line 16, ../../src/scss/_footer.scss */
+    #footer a:hover {
+      color: #00aeef;
+      transition: .3s;
+    }
+    /* line 20, ../../src/scss/_footer.scss */
+    #footer .terms {
+      display: block;
+      margin-bottom: 10px;
+    }
+    /* line 25, ../../src/scss/_footer.scss */
+    #footer .follow {
+      display: block;
+      font-size: 35px;
+      line-height: 10px;
+    }
+    /* line 30, ../../src/scss/_footer.scss */
+    #footer .follow a {
+      color: #999999;
+    }
+    /* line 33, ../../src/scss/_footer.scss */
+    #footer .follow a:hover {
+      color: #ffffff;
+    }
+    /* line 37, ../../src/scss/_footer.scss */
+    #footer .follow .name {
+      display: none;
+    }
+
+    /* RESPONSIVE */
+    /* GLOBAL */
+    /* PARAMETERS */
+    /* FOUNDATION SETTINGS */
+    /* FOUNDATION GLOBAL */
+    /* SECTION */
+    @media only screen and (min-width: 40.0625em) {
+      /* line 6, ../../src/scss/_footer_medium.scss */
+#footer {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    /* padding-left: 16%; */
+    text-align: left;
+    /* width: 110%; */
+}
+
+#footer a i {
+    letter-spacing: 8px;
+    font-size: 1.7rem;
+    color: #999999;
+    text-decoration: none;
+    transition:  .5s;
+}
+      /* line 12, ../../src/scss/_footer_medium.scss */
+      #footer .footermenu ul {
+        list-style-type: none;
+      }
+      /* line 16, ../../src/scss/_footer_medium.scss */
+#footer .footermenu ul li {
+    font-size: 1rem;
+    line-height: 14px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+      /* line 22, ../../src/scss/_footer_medium.scss */
+      #footer .footermenu ul li ul {
+        margin-top: 2px;
+        padding-top: 2px;
+
+      }
+      /* line 27, ../../src/scss/_footer_medium.scss */
+      #footer .footermenu ul li ul li {
+        font-size: 15px;
+        line-height: 13px;
+      }
+      /* line 36, ../../src/scss/_footer_medium.scss */
+      #footer .copyfollow {
+        padding-top: 0px;
+
+      }
+      /* line 41, ../../src/scss/_footer_medium.scss */
+      #footer .copyfollow .row .terms {
+        padding-top: 4px;
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+      /* line 47, ../../src/scss/_footer_medium.scss */
+      #footer .copyfollow .row .follow {
+        text-align: right;
+        font-size: 30px;
+        line-height: 30px;
+        vertical-align: top;
+      }
+      /* line 53, ../../src/scss/_footer_medium.scss */
+      #footer .copyfollow .row .follow .name {
+        font-size: 14px;
+        line-height: 30px;
+        display: inline;
+        vertical-align: top;
+      }
+    }
+    /* RESPONSIVE */
+    /* GLOBAL */
+    /* PARAMETERS */
+    /* FOUNDATION SETTINGS */
+    /* FOUNDATION GLOBAL */
+    /* SECTION */
+    @media only screen and (min-width: 40.0625em) {
+      /* line 6, ../../src/scss/_footer_medium.scss */
+#footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    margin-top: 0px;
+}
+      /* line 12, ../../src/scss/_footer_medium.scss */
+      #footer .footermenu ul {
+        list-style-type: none;
+      }
+      /* line 16, ../../src/scss/_footer_medium.scss */
+      #footer .footermenu ul li {
+        font-size: .5rem;
+        line-height: 1;
+        font-weight: 300;
+        margin-top: 7px;
+      }
+      /* line 22, ../../src/scss/_footer_medium.scss */
+      #footer .footermenu ul li ul {
+        margin-top: 2px;
+        padding-top: 2px;
+
+      }
+      /* line 27, ../../src/scss/_footer_medium.scss */
+      #footer .footermenu ul li ul li {
+        font-size: 15px;
+        line-height: 13px;
+      }
+      /* line 36, ../../src/scss/_footer_medium.scss */
+      #footer .copyfollow {
+        padding-top: 0px;
+
+      }
+      /* line 41, ../../src/scss/_footer_medium.scss */
+      #footer .copyfollow .row .terms {
+        padding-top: 4px;
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+      /* line 47, ../../src/scss/_footer_medium.scss */
+      #footer .copyfollow .row .follow {
+        text-align: right;
+        font-size: 30px;
+        line-height: 30px;
+        vertical-align: top;
+      }
+      /* line 53, ../../src/scss/_footer_medium.scss */
+      #footer .copyfollow .row .follow .name {
+        font-size: 14px;
+        line-height: 30px;
+        display: inline;
+        vertical-align: top;
+      }
+    }
+    /* GLOBAL */
+    /* PARAMETERS */
+    /* FOUNDATION SETTINGS */
+    /* FOUNDATION GLOBAL */
+    /* SECTION */
+
+
+@media screen and (max-width: 640px) {
+#footer{
+display: none;
+
+
+}
+
+.social{
+padding-bottom: 15px !important;
+padding-top: 15px !important;
+width: 100%;
+background: #2c2e31;
+
+
+}
+
+ul.accordionFooter {
+  margin-left: 0;
+}
+
+#footerMiddle {
+    bottom: 0;
+    width: 100%;
+    float: left;
+    display: block;
+    height: 200px;
+    position: relative;
+    color: #999999;
+    /* background-color: #2c2e31; */
+    padding: 0;
+    text-align: left;
+/*    margin-top: 30px;*/
+}
+
+#footerMiddle ul li a {
+    padding-left: 14px;
+    font-size: 14px;
+    line-height: 2vw;
+    width: 100%;
+    margin-left: 0px;
+    background-color: #2c2e31;
+    color: white;
+    height: 50px;
+    border-bottom: solid 2px black;
+    text-decoration: none;
+}
+
+#footerMiddle ul li .active a{
+    padding-left: 14px;
+    font-size: 14px;
+    line-height: 2vw;
+    width: 100%;
+    margin-left: 0px;
+    background-color: white;
+    color: #2c2e31;
+    height: 50px;
+    border-bottom: none;
+    text-decoration: none;
+
+}
+
+
+#footerMiddle ul li .active a:hover{
+    padding-left: 14px;
+    font-size: 14px;
+    line-height: 2vw;
+    width: 100%;
+    margin-left: 0px;
+    background-color: white;
+    color: #13b2ff;
+    height: 50px;
+    border-bottom: none;
+    text-decoration: none;
+
+}
+
+
+
+  [class*="block-grid-"] {
+  display: block;
+  padding: 0;
+  margin: -30px -0.625rem;
+}
+
+  .small-block-grid-1 > li:nth-of-type(1n+1) {
+    clear: both;
+    background-color: #2c2e31;
+  }
+
+
+  #footerMiddle ul li .color a {
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 2vw;
+    background-color: white;
+    color: white;
+    border-bottom: none;
+    height: 58px;
+    line-height: 32px;
+    color: black;
+  }
+
+
+  #footerMiddle ul li .color   {
+
+    background-color: white;
+    margin-left: -27px;
+    margin-right: -9px;
+  }
+
+
+
+
+  #footerMiddle ul li .color  a:hover {
+    color:#00aeef;
+  }
+
+    #footerMiddle a {
+    text-decoration: none;
+  }
+
+  #footerMiddle a i {
+    letter-spacing: 12px;
+    line-height: 5px;
+    font-size: 2.5rem;
+    color: #999999;
+    text-decoration: none;
+  }
+  
+
+  #footerMiddle a i:hover {
+color: white;
+  }
+
+
+
+}
+.fx {
+  padding-left:6.7% !important;
+}
+
+
+
+/* line 129, ../../src/components/foundation/scss/foundation/components/_accordion.scss */
+.accordionFooter {
+  margin-bottom: 0;
+}
+/* line 172, ../../src/components/foundation/scss/foundation/components/_global.scss */
+.accordionFooter:before, .accordion:after {
+  content: " ";
+  display: table;
+}
+/* line 173, ../../src/components/foundation/scss/foundation/components/_global.scss */
+.accordionFooter:after {
+  clear: both;
+}
+/* line 132, ../../src/components/foundation/scss/foundation/components/_accordion.scss */
+.accordionFooter .accordion-navigation, .accordion dd {
+  display: block;
+  margin-bottom: 0 !important;
+}
+/* line 135, ../../src/components/foundation/scss/foundation/components/_accordion.scss */
+.accordionFooter .accordion-navigation.active > a, .accordion dd.active > a {
+  background: ##e3e3e3;
+}
+/* line 136, ../../src/components/foundation/scss/foundation/components/_accordion.scss */
+.accordionFooter .accordion-navigation > a, .accordion dd > a {
+  background: #efefef;
+  color: #222222;
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  padding: 1rem;
+}
+/* line 143, ../../src/components/foundation/scss/foundation/components/_accordion.scss */
+.accordionFooter .accordion-navigation > a:hover, .accordion dd > a:hover {
+  background: #2c2e31;
+}
+/* line 146, ../../src/components/foundation/scss/foundation/components/_accordion.scss */
+.accordionFooter .accordion-navigation > .content, .accordion dd > .content {
+  display: none;
+  padding: 0.9375rem;
+}
+/* line 149, ../../src/components/foundation/scss/foundation/components/_accordion.scss */
+.accordionFooter .accordion-navigation > .content.active, .accordion dd > .content.active {
+  
+ background: #ffffff;
+  display: block;
+}
+

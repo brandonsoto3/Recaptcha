@@ -1,0 +1,16 @@
+
+.icon-privado-info:before { content: '\61'; } /* 'a' */
+.icon-privado-cerrarsesion:before { content: '\62'; } /* 'b' */
+.icon-privado-perfil:before { content: '\63'; } /* 'c' */
+.icon-privado-ayuda:before { content: '\64'; } /* 'd' */
+.icon-privado-download:before { content: '\65'; } /* 'e' */
+.icon-privado-sugerencias:before { content: '\66'; } /* 'f' */
+.icon-privado-admin-pagoelectronico:before { content: '\67'; } /* 'g' */
+.icon-privado-admin-pagoprestamo:before { content: '\68'; } /* 'h' */
+.icon-privado-admin-guateach:before { content: '\69'; } /* 'i' */
+.icon-privado-admin-pagoservicios:before { content: '\6a'; } /* 'j' */
+.icon-privado-admin-controlcheques:before { content: '\6b'; } /* 'k' */
+.icon-privado-admin-consultasiata:before { content: '\6c'; } /* 'l' */
+.icon-tooltip:before { content: '\6d'; } /* 'm' */
+.icon-back:before { content: '\6e'; } /* 'n' */
+.icon-buscador:before { content: '\6f'; } /* 'o' */

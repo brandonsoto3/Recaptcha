@@ -1,0 +1,162 @@
+
+.footer {
+    background-color: #424141;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+.footer h3 {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.footer li {
+    list-style: none;
+    list-style-position: none;
+}
+
+.footer ul {
+    margin-left: 0px;
+    line-height: 15px;
+}
+
+.footer a {
+    color: #aaaaaa;
+    font-size: 12px;
+}
+
+.footer p {
+    color: #aaaaaa;
+    font-size: 12px; 
+}
+
+.footer span {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.footer .icon {
+    color: #aaaaaa;
+    line-height: 2.5rem;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+a:hover {
+    color: #2ba6cb;
+    transition: .3s;
+}
+
+a:hover .icon {
+    color: #2ba6cb;
+    transition: .3s;
+}
+
+.ubicacion {
+    margin-top: 15px;
+}
+
+.redes {
+    margin-top: -15px;
+}
+
+@media (max-width: 1023px){
+    .contacto {
+        margin-bottom: 17px;
+    }
+}
+
+/* ACORDEON MOVIL */
+
+.accordion-title {
+    font-size: 0.875rem;
+    color: white;
+    font-weight: 600;
+    background-color: #424141;
+}
+
+.accordion-title {
+    position: relative;
+    display: block;
+    padding: 1.25rem 2rem;
+    border: none;
+    border-bottom: 0;
+    font-size: 0.75rem;
+    line-height: 1;
+    border-bottom: 2px solid black;
+    color: #2ba6cb;
+
+}
+
+li.accordion-item.is-active a {
+    background-color: #424141;
+}
+
+.accordion-content {
+    display: none;
+    padding: 1rem 2rem;
+    border: none;
+    border-bottom: 0;
+    background-color: #262626;
+    color: #0a0a0a;
+}
+
+.accordion-title:hover, .accordion-title:focus {
+    color: white;
+    background-color: #424141;
+}
+
+.accordion a {
+    color: white;
+}
+
+.accordion .menu-acordeon a {
+    color: #aaaaaa;
+}
+
+.accordion .menu-acordeon a:hover {
+    color: #2ba6cb;
+    transition: .3s;
+}
+
+li.accordion-item.is-active .menu-acordeon a {
+    background-color: #262626;
+}
+
+.accordion-title::before {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    margin-top: -0.5rem;
+     content: none; 
+}
+
+is-active > .accordion-title::before {
+    content: none;
+}
+
+.is-active > .accordion-title::before {
+    content: none;
+}
+
+.accordion-item:first-child > :first-child {
+    border-radius: 0px 0px 0 0;
+}
+
+.icono-acordeon .icon {
+    font-size: 25px;
+}
+
+.icono-acordeon {
+    margin-top: 13px;
+    margin-bottom: 7px;
+    padding: 0rem 2rem;
+}
+
+.accordion-content p {
+    margin-bottom: 0rem;
+}

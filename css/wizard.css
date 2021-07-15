@@ -1,0 +1,170 @@
+/*! * Bootstrap v3.3.0 (http://getbootstrap.com) * Copyright 2011-2014 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+ 
+.nav{
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+.nav>li{
+    position:relative;
+    display:block
+}
+.nav>li>a{
+    position:relative;
+    display:block;
+    padding:10px 15px
+}
+
+
+
+.nav-tabs>li{
+    float:left;
+    margin-bottom:-1px
+}
+
+
+.progress {
+     height: 2px;
+    background: #13b2ff;
+    position: absolute;
+    width: 100%;
+    top: 42%;
+    z-index: 1;
+        background-color: #f5f5f5;
+}
+
+.progress-bar[aria-valuenow="1"], .progress-bar[aria-valuenow="2"] {
+    min-width: 30px;
+}
+
+
+
+
+
+.progress-bar {
+
+    width: 0;
+    height: 100%;
+   
+    background-color: #1f3366;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+
+
+
+.clearfix:before,.clearfix:after,.dl-horizontal dd:before,.dl-horizontal dd:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after,.form-horizontal .form-group:before,.form-horizontal .form-group:after,.btn-toolbar:before,.btn-toolbar:after,.btn-group-vertical>.btn-group:before,.btn-group-vertical>.btn-group:after,.nav:before,.nav:after,.navbar:before,.navbar:after,.navbar-header:before,.navbar-header:after,.navbar-collapse:before,.navbar-collapse:after,.pager:before,.pager:after,.panel-body:before,.panel-body:after,.modal-footer:before,.modal-footer:after{
+    display:table;
+    content:" "
+}
+.clearfix:after,.dl-horizontal dd:after,.container:after,.container-fluid:after,.row:after,.form-horizontal .form-group:after,.btn-toolbar:after,.btn-group-vertical>.btn-group:after,.nav:after,.navbar:after,.navbar-header:after,.navbar-collapse:after,.pager:after,.panel-body:after,.modal-footer:after{
+    clear:both
+}
+
+
+
+
+
+
+
+
+
+    .wizard > div.wizard-inner {
+        position: relative;
+    }
+
+
+
+span.round-tab {
+
+    height: 70px;
+    line-height: 66px;
+    display: inline-block;
+    /* border-radius: 100px; */
+    background: #fff;
+    /* border: 5px solid #13b2ff; */
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+span.round-tab i{
+    color:#13b2ff;
+    font-size: 32px;
+}
+
+
+
+.wizard li.active span.round-tab i{
+    color: white;
+
+}
+
+
+
+.wizard .nav-tabs > li {
+    width: 25%;
+}
+
+
+
+.wizard .nav-tabs > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 50px;
+}
+
+
+.birthdrop {
+    padding: 6px 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    margin-left: 10px;
+    width: 16%;
+    outline: 0;
+    font-weight: normal;
+}
+
+
+
+
+
+@media( max-width : 585px ) {
+
+
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard .nav-tabs > li a {
+        width: 71px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+}
