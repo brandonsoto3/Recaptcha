@@ -4,7 +4,7 @@
     <meta http-equiv="x-ua-compatible" content="IE=EDGE">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>perrooo</title>
+    <title>vvvvv</title>
     <!-- <link rel="stylesheet" href="../../css/val.css"> -->
     <link rel="stylesheet" href="../../css/opensans.css">
    <!--  <link rel="stylesheet" href="css/ani.css"> -->
@@ -65,7 +65,7 @@
     <!-- /Menu -->
 
 
-    <form id="demo-form">
+
         <div class="row section-size">
 
          
@@ -96,6 +96,13 @@
             </div>
 
 
+ <div class="row">
+<div class="large-12 columns mtop20">
+<div class="large-6 large-offset-4 medium-6 medium-offset-0 columns">
+    <div class="g-recaptcha" data-sitekey="6LcmQpobAAAAAM8Y6Oy0fEG-Dii3micEeQOB-d00"></div>
+</div>
+</div>
+</div> 
 
         </div>
     
@@ -104,16 +111,12 @@
 
 <div class="large-12 columns">
                          <div class="large-4 large-offset-8 medium-5 medium-offset-6 columns mtop20" >
-                            <button class="g-recaptcha button" 
-        data-sitekey="6LcmQpobAAAAAM8Y6Oy0fEG-Dii3micEeQOB-d00" 
-        data-callback='onSubmit' 
-        data-action='submit'>Submit</button>    
-                            
+                                <button id="btnAceptar" class="button" type="submit">Validar</button>
                             </div>
                 </div>     
                    
 </div>
-</form>
+
 
 
 
@@ -128,8 +131,7 @@
 
 <script>
     function onSubmit(token) {
-        
-        console.log(token)
+      console.log(token);
     }
   </script>
 
