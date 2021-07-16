@@ -4,10 +4,19 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
-    <form action="?" method="POST">
-      <div class="g-recaptcha" data-sitekey="6LdmeZobAAAAAJsnjrBTR0kiTQ28cfti38OLSBzc"></div>
+    <form class="recaptchaForm" action="?" method="POST">
+      <div class="form-group">
+        <div class="g-recaptcha" data-sitekey="6LdmeZobAAAAAJsnjrBTR0kiTQ28cfti38OLSBzc"></div>  
+      </div>
       <br/>
       <input type="submit" value="Submit">
     </form>
   </body>
+  $(document).ready(function(){
+    var recaptcha = $('#g-recaptcha-response').val();
+    if (recaptcha===""){
+      event.preventDefault();
+      alert("Llenar captcha")
+    }
+  });
 </html>
