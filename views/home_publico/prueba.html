@@ -7,23 +7,27 @@
     <form action="?" method="POST">
         <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LdmeZobAAAAAJsnjrBTR0kiTQ28cfti38OLSBzc"></div>  
       <br/>
-      <input id="submitBtn" type="submit" value="Submit">
+      <input id="btnSubmit" type="submit" value="Submit">
     </form>
   </body>
   <script>
 
-if(grecaptcha && grecaptcha.getResponse().length > 0)
-{
-     //the recaptcha is checked
-     // Do what you want here
-     alert('Well, recaptcha is checked !');
-}
-else
-{
-    //The recaptcha is not cheched
-    //You can display an error message here
-    alert('Oops, you have to check the recaptcha !');
-}
+var checkCaptch = false;
+     var verifyCallback = function(response) {
+        if (response == "") {
+             checkCaptch = false;
+         }
+         else {
+             checkCaptch = true;
+         }
+     };
+     $(document).ready(function() {
+         $("#btnSubmit").click(function() {
+             if (checkCaptch && grecaptcha.getResponse()!="") {
+                  //Write your success code here
+             }
+         });
+     })
 
 </script>
 </html>
