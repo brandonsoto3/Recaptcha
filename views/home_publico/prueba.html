@@ -6,21 +6,17 @@
   <body>
     <form class="recaptchaForm" action="?" method="POST">
       <div class="form-group">
-        <div class="g-recaptcha" data-sitekey="6LdmeZobAAAAAJsnjrBTR0kiTQ28cfti38OLSBzc"></div>  
+        <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LdmeZobAAAAAJsnjrBTR0kiTQ28cfti38OLSBzc"></div>  
       </div>
       <br/>
       <div class="Form-group">
-      <input type="submit" value="Submit">
+      <input type="submit" value="Submit" disabled>
       </div>
     </form>
   </body>
   <script>
-  $(document).ready(function(){
-    var recaptcha = $('#g-recaptcha-response').val();
-    if (recaptcha == ""){
-      event.preventDefault();
-      alert("Llenar captcha")
-    }
-  });
-    </script>
+    function recaptchaCallback() {
+    $('#submitBtn').removeAttr('disabled');
+    };
+  </script>
 </html>
