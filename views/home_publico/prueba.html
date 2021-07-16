@@ -12,6 +12,7 @@
       <input type="submit" value="Submit">
     </form>
   </body>
+  <script>
   $(document).ready(function(){
     var recaptcha = $('#g-recaptcha-response').val();
     if (recaptcha===""){
@@ -19,4 +20,5 @@
       alert("Llenar captcha")
     }
   });
+    </script>
 </html>
