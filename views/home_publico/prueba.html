@@ -7,27 +7,15 @@
     <form action="?" method="POST">
         <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LdmeZobAAAAAJsnjrBTR0kiTQ28cfti38OLSBzc"></div>  
       <br/>
-      <input id="btnSubmit" type="submit" value="Submit">
+      <input id="cmdSubmit" type="submit" value="Submit">
     </form>
   </body>
   <script>
-
-var checkCaptch = false;
-     var verifyCallback = function(response) {
-        if (response == "") {
-             checkCaptch = false;
-         }
-         else {
-             checkCaptch = true;
-         }
-     };
-     $(document).ready(function() {
-         $("#btnSubmit").click(function() {
-             if (checkCaptch && grecaptcha.getResponse()!="") {
-                  //Write your success code here
-             }
-         });
-     })
-
-</script>
+    <script>
+            $("#cmdSubmit").click(function () {
+               var response = grecaptcha.getResponse();
+                console.log(response)
+            });
+        </script> 
+  </script>
 </html>
