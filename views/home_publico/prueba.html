@@ -14,9 +14,13 @@
     </form>
   </body>
   <script>
-            $("#cmdSubmit").click(function () {
-               var response = grecaptcha.getResponse();
-                console.log(response + "hh")
-            });
+    $("#cmdSubmit").click(function () {
+      var response = grecaptcha.getResponse();
+      console.log(response + "hh")
+      if(response.length == 0){
+      alert("Hola prro")
+      }else
+    //reCaptch verified
+      });
   </script>
 </html>
