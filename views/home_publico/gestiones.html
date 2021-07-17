@@ -131,11 +131,6 @@
 <script src="../../js/vendor/foundation.min.js"></script>
 <script src="../../js/app.js"></script>
 
-<script>
-    function onSubmit(token) {
-      console.log(token);
-    }
-  </script>
 
 <script type="text/javascript">
 
@@ -150,7 +145,11 @@ $( "#btnAceptar" ).click(function() {
 var pk_inicial = $('input[name="radioButtons"]:checked').val();
 
 debugger;
-if (pk_inicial == 1) {
+var response = grecaptcha.getResponse();
+if(response.length == 0){
+      alert("Hola prro")
+}else{
+    if (pk_inicial == 1) {
 
    window.location.href = "registrarse1.html";
 
@@ -162,6 +161,9 @@ else{
     window.location.href = "codigo_acceso.html";
 
 } 
+
+}
+   
 
 });
 
