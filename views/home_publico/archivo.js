@@ -1,5 +1,6 @@
 const constraints = {
     video: true,
+    audio:true
   };
   
   const video = document.querySelector("video");
