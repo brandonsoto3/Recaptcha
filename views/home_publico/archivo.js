@@ -1,5 +1,11 @@
-navigator.mediaDevices.getUserMedia({ audio: false,video:true}).then((stream)=>{console.log(stream)
-let video= document.getElementById('video')
-video.srcObject=stream
-video.onloadedmetadata=(ev)=>video.play()
-}).catch((err)=>console.log(err))
+const constraints = {
+    video: true,
+  };
+  
+  const video = document.querySelector("video");
+  
+  navigator.mediaDevices.getUserMedia(constraints).then((stream) => {
+    video.srcObject = stream;
+    console.log('Camra funcional')
+  });
+  
