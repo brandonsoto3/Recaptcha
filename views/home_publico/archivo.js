@@ -7,6 +7,6 @@ const constraints = {
   
   navigator.mediaDevices.getUserMedia(constraints).then((stream) => {
     //video.srcObject = stream;
-    console.log('Camra funcional')
+    console.log('Camara funcional 2')
   });
   
