@@ -7,8 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Acceso</h1>
-    <video src="" id="video"></video>
-    <script src="archivo.js"></script>
+    <video autoplay></video>
+
+    <script>
+    const constraints = {
+      video: true,
+    };
+    
+    const video = document.querySelector("video");
+    
+    navigator.mediaDevices.getUserMedia(constraints).then((stream) => {
+      video.srcObject = stream;
+    });
+    </script>
 </body>
 </html>
